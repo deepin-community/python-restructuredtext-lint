@@ -1,0 +1,2 @@
+version=3
+https://github.com/twolfson/restructuredtext_lint/tags .*/(\d[\d\.]+)\.tar\.gz

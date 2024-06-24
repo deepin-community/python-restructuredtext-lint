@@ -1,5 +1,62 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-restructuredtext-lint (1.3.2-2) unstable; urgency=medium
 
-  * Initial release
+  * Uploading to unstable.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Thomas Goirand <zigo@debian.org>  Thu, 30 Sep 2021 15:33:43 +0200
+
+python-restructuredtext-lint (1.3.2-1) experimental; urgency=medium
+
+  * d/rules: fixed upstream URL.
+  * New upstream release.
+  * Switch to debhelper-compat = 11.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 25 Aug 2021 10:38:53 +0200
+
+python-restructuredtext-lint (1.3.0-2) unstable; urgency=medium
+
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Sun, 20 Oct 2019 01:29:31 +0200
+
+python-restructuredtext-lint (1.3.0-1) experimental; urgency=medium
+
+  * New upstream version
+  * d/control: Add me to uploaders field
+  * d/copyright: Add me to copyright file
+
+ -- Michal Arbet <michal.arbet@ultimum.io>  Tue, 24 Sep 2019 16:05:33 +0200
+
+python-restructuredtext-lint (0.12.2-3) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/rules: Changed UPSTREAM_GIT protocol to https
+  * d/copyright: Changed source URL to https protocol
+  * d/control: Use team+openstack@tracker.debian.org as maintainer
+  * Use debhelper-compat instead of debian/compat.
+  * d/control: Set Vcs-* to salsa.debian.org
+
+  [ Daniel Baumann ]
+  * Updating copyright format url.
+  * Updating maintainer field.
+  * Running wrap-and-sort -bast.
+  * Removing gbp.conf, not used anymore or should be specified in the
+    developers dotfiles.
+  * Updating standards version to 4.1.0.
+
+  [ Thomas Goirand ]
+  * Drop Python 2 support (Closes: #938143).
+  * Fix d/copyright.
+
+ -- Thomas Goirand <zigo@debian.org>  Sun, 08 Sep 2019 11:11:56 +0200
+
+python-restructuredtext-lint (0.12.2-2) unstable; urgency=medium
+
+  * override_dh_python3 to fix Py3 shebang.
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 23 Oct 2015 23:50:23 +0000
+
+python-restructuredtext-lint (0.12.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #801748)
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 14 Oct 2015 09:06:19 +0200
